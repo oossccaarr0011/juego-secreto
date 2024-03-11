@@ -1,0 +1,24 @@
+// DESAFIO
+
+let nombre = "Oscar";
+let respuestaPregunta = 0;
+let valor1 = 5;
+let valor2 = 10;
+let resultado = 1;
+let edad = 18;
+
+console.log(`Hola ${nombre}`);
+alert (`Hola ${nombre}`);
+respuestaPregunta = prompt ("Cual es el lenguaje de programacion que mas te gusta?")
+console.log (respuestaPregunta);
+
+resultado = valor1 + valor2;
+console.log (`La suma del valor ${valor1} y ${valor2} es igual a ${resultado}`);
+
+resultado = valor1 - valor2;
+console.log (`La resta del valor ${valor1} y ${valor2} es igual a ${resultado}`);
+
+edad = prompt ("Ingresa tu edad");
+if (edad >= 18) {
+    alert ("Eres una persona mayor de edad")
+}
